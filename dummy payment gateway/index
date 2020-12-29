@@ -1,0 +1,14 @@
+<?php
+	require('./paymentgate.php');
+
+?>
+<form action="submit.php" method="post">
+	<script src="https://checkout.stripe.com/checkout.js" class="stripe-button" 
+data-key= "pk_test_51I2CPlGZQaYEJqbpG51I1dl0Ocgr8o0JfWVatwrljPfGvGp7jVdhNW3ZnLihSTpLvdlXDLsyt0DwPJLjUEHMa9eq00nksr28mY"
+	data-amount="500"
+	data-name="payment-dummy"
+	data-description="dummy payment gateway"
+	data-image=""
+	data-currency="inr" ></script>
+
+</form>
