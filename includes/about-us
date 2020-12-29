@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+	<head>	
+		
+		
+
+		<title>electic</title>
+		<meta charset="UTF-8"/>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css"/>
+		<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+		<link rel="stylesheet" href="rules.css"/>
+		<style> 
+			
+	
+		</style>
+	</head>
+	<!--Helvetica Neue-->
+<body>
+<div class="front-img">
+	<img src="canada.jpg"></img>
+</div>	
+
+<div class="wrapper">
+<!-- header wrapper -->
+<div class="header-wrapper">
+	
+	<div class="nav-container">
+		<!-- Nav -->
+		<div class="nav">
+			
+			<div class="nav-left">
+				<ul>
+					<li><i aria-hidden="true" ></i><a href="index.php">Home</a></li>
+					<li><a href="aboutus.html">About</a></li>
+				</ul>
+			</div><!-- nav left ends-->
+
+			<div class="nav-right">
+				<ul>
+					<li><a href="#">Contact us</a></li>
+				</ul>
+			</div><!-- nav right ends-->
+
+		</div><!-- nav ends -->
+
+	</div><!-- nav container ends -->
+
+</div><!-- header wrapper end -->
+</div>
+<br><br><br>
+<div>
+	<div class="content-left">
+			<div>
+				<!-- Start of UiPath Chatbot widget -->
+    <script>
+  window.addEventListener("message", function (event) {
+      if (event.data.hasOwnProperty("frameSize")) {
+          const size = event.data.frameSize;
+          document.getElementById("uipath-chatbot-iframe").style.height = size.height;
+          document.getElementById("uipath-chatbot-iframe").style.width = size.width;
+      }
+  });
+</script>
+<iframe src="https://chatbot.uipath.com/web-channel?connectionId=b1e8a7e4-ec7e-4784-b1de-df7e612d4654"
+  id="uipath-chatbot-iframe"
+  style="
+      z-index: 9999;
+      position: fixed;
+      bottom: 0;
+      right: 0;
+      height: 112px;
+      width: 120px;
+      border: 0;">
+</iframe>
+<!-- End of UiPath Chatbot widget -->
+
+			
+			</div>
+			<br><br><br>
+			<h1>Welcome to ELECTIC TOURING.</h1>
+			<br/>
+			<p style="background:black" text-align="center">A place to connect with your friends — and know about the places you love.get information about the places you wish to travel and make your arrangements accordingly..lets get started!!!</p>
+			<br><br>
+			<p style="background: black"><br><br>Post images of the places you  travel. Follow people book tourist packages and much more.</p>
+		</div><!-
+
+  
+
+</div>
+</body>
+</html>
+	
+
